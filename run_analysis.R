@@ -3,7 +3,7 @@
 library(plyr)
 library(dplyr)
 
-# Downloading the file by saving it to a temporary file, unzipping it and then unlinking it.
+# Downloading the file by saving it to a temp file, unzipping it and then unlinking it.
 
 temp=tempfile()
 download.file("http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",temp)
